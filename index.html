@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE SITE SHOWDOWN — United Way Live Standings</title>
+<meta name="description" content="Live standings for the United Way Pie in the Face and Hot Dog Eating Time Trials.">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ MARQUEE HEADER ============ -->
+<header class="marquee">
+  <div class="bulbs"></div>
+  <div class="wrap marquee-inner">
+    <p class="presents">United Way &amp; PCL Construction present</p>
+    <h1 class="title">THE SITE<br><span>SHOWDOWN</span></h1>
+    <p class="billing" id="billing">Two Events · One Site · No Mercy</p>
+    <div class="ticket-row">
+      <div class="ticket"><span class="t-label">Now Showing</span><span class="t-val" id="eventDates">—</span></div>
+      <div class="ticket"><span class="t-label">Total Raised</span><span class="t-val" id="totalRaised">$0</span></div>
+      <div class="ticket"><span class="t-label">Showtime In</span><span class="t-val" id="countdown">—</span></div>
+    </div>
+    <nav class="tabs">
+      <a href="#pie" class="tab-link">🥧 Pie in the Face</a>
+      <a href="#hotdog" class="tab-link">🌭 Time Trials</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ EVENT 1: PIE IN THE FACE ============ -->
+<section id="pie" class="feature">
+  <div class="wrap">
+    <div class="slate">
+      <div class="slate-top"></div>
+      <div class="slate-body">
+        <p class="feat-num">FEATURE PRESENTATION NO. 1</p>
+        <h2 class="feat-title">PIE IN THE FACE</h2>
+        <p class="feat-sub">"They said it couldn't be done. They were wrong. Cream was involved."</p>
+      </div>
+    </div>
+
+    <!-- Rules strip -->
+    <div class="rules">
+      <div class="rule">
+        <span class="rule-amt">$100</span>
+        <span class="rule-txt"><strong>Eligible to be pied</strong><br>Get here or you're safe.</span>
+      </div>
+      <div class="rule">
+        <span class="rule-amt">🏆</span>
+        <span class="rule-txt"><strong>Category Leader gets pied</strong><br>Most raised in each category takes the hit.</span>
+      </div>
+      <div class="rule hot">
+        <span class="rule-amt">$500</span>
+        <span class="rule-txt"><strong>Pied regardless</strong><br>No escape. Position doesn't matter.</span>
+      </div>
+      <div class="rule gold">
+        <span class="rule-amt">$1000</span>
+        <span class="rule-txt"><strong>THE SPECIAL PIE</strong><br>You don't want to know. 🥧✨</span>
+      </div>
+    </div>
+
+    <div id="pieCategories"></div>
+  </div>
+</section>
+
+<!-- ============ EVENT 2: HOT DOG TIME TRIALS ============ -->
+<section id="hotdog" class="feature alt">
+  <div class="wrap">
+    <div class="slate">
+      <div class="slate-top"></div>
+      <div class="slate-body">
+        <p class="feat-num">FEATURE PRESENTATION NO. 2</p>
+        <h2 class="feat-title">THE TIME TRIALS</h2>
+        <p class="feat-sub">"3 hot dogs. One clock. Lightning never strikes twice — but heartburn does."</p>
+      </div>
+    </div>
+
+    <div class="board-head">
+      <h3>⏱️ OFFICIAL TIMING BOARD</h3>
+      <p>Three hot dogs, fastest time wins. Qualifying order below.</p>
+    </div>
+
+    <div class="timing-board" id="timingBoard"></div>
+
+    <div class="board-legend">
+      <span><i class="dot p1"></i> Pole Position</span>
+      <span><i class="dot p2"></i> P2</span>
+      <span><i class="dot p3"></i> P3</span>
+      <span><i class="dot pz"></i> Timed In</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREDITS ============ -->
+<section class="credits">
+  <div class="wrap center">
+    <h3>🎬 EVERY DOLLAR GOES TO UNITED WAY</h3>
+    <p>Donations accepted on site. Pick your victim wisely.</p>
+    <p class="fineprint">A PCL Construction / Fortis Site Production · <span id="year"></span></p>
+  </div>
+</section>
+
+</main>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
