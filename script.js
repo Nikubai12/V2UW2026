@@ -37,12 +37,12 @@ function buildPie(){
 
   PIE_CATEGORIES.forEach(cat => {
     // rank contestants within the category
-    const ranked = [...cat.contestants].sort((a,b) => (b.raised||0) - (a.raised||0));
+    const ranked = [...cat.contestants].sort((a,b) => Number(b.raised||0) - Number(a.raised||0));
     const top = ranked[0];
     const leadAmt = top ? (top.raised || 0) : 0;
     // leader only counts if they've cleared the eligibility bar
     const tied = ranked.filter(c => (c.raised||0) === leadAmt && leadAmt >= TIERS.eligible);
-    const catTotal = cat.contestants.reduce((s,c) => s + (c.raised||0), 0);
+    const catTotal = cat.contestants.reduce((s,c) => s + Number(c.raised||0), 0);
     grandTotal += catTotal;
 
     const section = document.createElement("div");
@@ -61,7 +61,7 @@ function buildPie(){
     const duel = section.querySelector(".duel");
 
     cat.contestants.forEach(c => {
-      const amt = c.raised || 0;
+      const amt = Number(c.raised) || 0;
       const isLeader  = tied.includes(c);
       const eligible  = amt >= TIERS.eligible;
       const locked    = amt >= TIERS.locked;
