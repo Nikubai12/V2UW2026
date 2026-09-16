@@ -203,3 +203,11 @@ const io = new IntersectionObserver(entries => {
   });
 }, { threshold: .3 });
 document.querySelectorAll(".fill").forEach(f => io.observe(f));
+
+document.getElementById("lastUpdate").textContent =
+  new Date().toLocaleTimeString("en-CA",{hour:"numeric",minute:"2-digit"});
+
+/* ---- LIVE MODE: refresh every 60s ---- */
+setInterval(function(){
+  if (!document.hidden) location.reload();
+}, 60000);
