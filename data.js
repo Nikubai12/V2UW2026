@@ -10,7 +10,7 @@ const EVENT_INFO = {
   eventDates: "September 19 & 20",
   siteName: "Fortis Site — United Way Campaign",
   // Set to a date string to show a live countdown. Format: "YYYY-MM-DDTHH:MM:SS"
-  deadline: "2026-09-19T11:00:00"
+  deadline: "2026-09-20T14:00:00"
 };
 
 /* ---- PIE IN THE FACE THRESHOLDS ---- */
