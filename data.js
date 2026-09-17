@@ -69,8 +69,11 @@ const PIE_CATEGORIES = [
       {
         name: "Ramone B",
         org: "PCL",
-        raised: "0",
-        donors: []
+        raised: "40",
+        donors: [
+            {name: "Graeme Deans", amount: 40}
+
+        ]
       },
       {
         name: "Olaf H",
