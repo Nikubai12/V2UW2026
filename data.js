@@ -45,7 +45,7 @@ const PIE_CATEGORIES = [
       {
         name: "Brian MW",
         org: "PCL",
-        raised: "0",
+        raised: "100",
         donors: [
            {name: "Pratthosh Ravi", amount: 100}
         ]
@@ -104,8 +104,9 @@ const PIE_CATEGORIES = [
       {
         name: "Stuart W",
         org: "FEI",
-        raised: "400",
+        raised: "900",
         donors: [
+           {name: "Darrin Masrshall", amount: 500},
            {name: "Robert Mawe", amount: 200},
            {name: "Chris Buckles", amount: 100},
            {name: "Graeme Deans", amount: 100}
