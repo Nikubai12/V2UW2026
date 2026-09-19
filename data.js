@@ -47,15 +47,16 @@ const PIE_CATEGORIES = [
         org: "PCL",
         raised: "200",
         donors: [
-           {name: "Curious Kid", amount: 200},
+           {name: "Anonymous", amount: 200},
         ]
       },
       {
         name: "Brian MW",
         org: "PCL",
-        raised: "100",
+        raised: "120",
         donors: [
-           {name: "Pratthosh Ravi", amount: 100}
+           {name: "Pratthosh Ravi", amount: 100},
+           {name: "Hugo Sotelo", amount: 20}
         ]
       }
     ]
@@ -124,11 +125,13 @@ const PIE_CATEGORIES = [
        {
         name: "Blake C",
         org: "PCL",
-        raised: "350",
+        raised: "400",
         donors: [
            {name: "Ramu", amount: 200},
            {name: "John K", amount: 100},
            {name: "Western Seaboard Transport", amount: 50},
+           {name: "Anonymous", amount: 50},
+           
         ]
       },
        
