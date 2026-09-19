@@ -134,9 +134,10 @@ const PIE_CATEGORIES = [
       {
         name: "Travis S",
         org: "FEI",
-        raised: "100",
+        raised: "140",
         donors: [
-          {name: "Marty Zellweger", amount: 100} 
+          {name: "Marty Zellweger", amount: 100},
+           {name: "Samantha M", amount: 40}, 
         ]
       }
     ]
