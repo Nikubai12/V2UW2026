@@ -42,6 +42,13 @@ const PIE_CATEGORIES = [
            {name: "Steve Bigoray", amount: 50}
         ]
       },
+       {
+        name: "Ginger B",
+        org: "PCL",
+        raised: "0",
+        donors: [
+        ]
+      },
       {
         name: "Brian MW",
         org: "PCL",
