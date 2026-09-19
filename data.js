@@ -92,7 +92,23 @@ const PIE_CATEGORIES = [
         donors: [
            {name: "Julie Watkins", amount: 100}
         ]
-      } 
+      }, 
+       {
+        name: "Marty Z",
+        org: "PCL",
+        raised: "100",
+        donors: [
+           {name: "Thomas S", amount: 100},
+
+        ]
+      },
+        {
+        name: "Graeme D",
+        org: "PCL",
+        raised: "0",
+        donors: [
+        ]
+      },
        
     ]
   },
