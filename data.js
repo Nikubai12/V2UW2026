@@ -83,7 +83,7 @@ const PIE_CATEGORIES = [
       {
         name: "Nikhil V",
         org: "PCL",
-        raised: "840",
+        raised: "890",
         donors: [
            {name: "Adam Mastel", amount: 200},
            {name: "Julie Watkins", amount: 110},
@@ -95,6 +95,7 @@ const PIE_CATEGORIES = [
            {name: "Emil Ilagan", amount: 50},
            {name: "Hot Dogs", amount: 120},
            {name: "Graeme Deans", amount: 60},
+           {name: "Connie Moroz", amount: 50},
         ]
       },
       {
