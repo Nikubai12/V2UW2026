@@ -69,9 +69,9 @@ const PIE_CATEGORIES = [
       {
         name: "Pratthosh R",
         org: "PCL",
-        raised: "250",
+        raised: "500",
         donors: [
-           {name: "Stefan Kendel", amount: 150},
+           {name: "Stefan Kendel", amount: 400},
            {name: "Steve Bigoray", amount: 50},
            {name: "Steven Webber", amount: 50},
         ]
@@ -79,12 +79,16 @@ const PIE_CATEGORIES = [
       {
         name: "Nikhil V",
         org: "PCL",
-        raised: "450",
+        raised: "650",
         donors: [
            {name: "Adam Mastel", amount: 200},
            {name: "Julie Watkins", amount: 100},
            {name: "Brett Trepanier", amount: 100},
-           {name: "Steve Bigoray", amount: 50}
+           {name: "Steve Bigoray", amount: 50},
+           {name: "Dan Cettiga", amount: 50},
+           {name: "Marty Zellweger", amount: 50},
+           {name: "Stefan Kendel", amount: 50},
+           {name: "Emil Ilagan", amount: 50},
         ]
       },
       {
@@ -105,7 +109,16 @@ const PIE_CATEGORIES = [
         donors: [
            {name: "Julie Watkins", amount: 100}
         ]
-      }, 
+      },
+{
+        name: "Brett T",
+        org: "PCL",
+        raised: "50",
+        donors: [
+           {name: "Graeme Deans", amount: 50}
+        ]
+      },
+       
        {
         name: "Marty Z",
         org: "PCL",
@@ -118,20 +131,26 @@ const PIE_CATEGORIES = [
         {
         name: "Graeme D",
         org: "PCL",
-        raised: "50",
+        raised: "150",
         donors: [
            {name: "Nikhil V", amount: 50},
+           {name: "Dan Cettiga", amount: 50},
+           {name: "Anonymous", amount: 50},
         ]
       },
        {
         name: "Blake C",
         org: "PCL",
-        raised: "400",
+        raised: "660",
         donors: [
-           {name: "Ramu", amount: 200},
+           {name: "Ramu", amount: 210},
            {name: "John K", amount: 100},
+           {name: "Marty Zellweger", amount: 100},
+           {name: "Stefan Kendel", amount: 100},
            {name: "Western Seaboard Transport", amount: 50},
            {name: "Anonymous", amount: 50},
+           {name: "Anonymous", amount: 50}
+           
            
         ]
       },
