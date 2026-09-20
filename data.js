@@ -176,7 +176,7 @@ const PIE_CATEGORIES = [
    or "M:SS.mmm" style string (e.g. "1:12.4").
    ============================================================ */
 const HOTDOG_TIMES = [
-   { name: "Adam M",  org: "PCL", time: 00.0,   day: "Sept 20" },
+   { name: "Adam M",  org: "PCL", time: 30.0,   day: "Sept 20" },
   // { name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
 ];
 
