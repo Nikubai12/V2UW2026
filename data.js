@@ -177,7 +177,7 @@ const PIE_CATEGORIES = [
    ============================================================ */
 const HOTDOG_TIMES = [
   // { name: "Michael Y",  org: "PCL", time: 58.2,   day: "Sept 19" },
-   { name: "Adam Mastel",  org: "PCL", time: 00.0},
+   { name: "Adam Mastel",  org: "PCL", time: 00.0, day: "Sept 20" },
   // { name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
 ];
 
