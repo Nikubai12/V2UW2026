@@ -100,7 +100,7 @@ const PIE_CATEGORIES = [
       {
         name: "Ramone B",
         org: "PCL",
-        raised: "1410.1",
+        raised: "1410",
         donors: [
            {name: "Joseph and Buddies", amount: 1320.1},
            {name: "Graeme Deans", amount: 40},
@@ -113,7 +113,7 @@ const PIE_CATEGORIES = [
         org: "PCL",
         raised: "100",
         donors: [
-           {name: "Julie Watkins", amount: 100}
+           {name: "Julie Watkins", amount: 100},
         ]
       },
 {
@@ -158,9 +158,7 @@ const PIE_CATEGORIES = [
            {name: "Stefan Kendel", amount: 100},
            {name: "Western Seaboard Transport", amount: 50},
            {name: "Anonymous", amount: 50},
-           {name: "Anonymous", amount: 50}
-           
-           
+           {name: "Anonymous", amount: 50},   
            
         ]
       },
