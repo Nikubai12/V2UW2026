@@ -207,9 +207,9 @@ const PIE_CATEGORIES = [
 const HOTDOG_TIMES = [
    { name: "Adam",  org: "PCL", time: 1:35.0,   day: "Sept 20" },
    { name: "Derrick",  org: "PCL", time: 1:27.0,   day: "Sept 20" },
-   { name: "Jan",  org: "PCL", time: DNF,   day: "Sept 20" },
-   { name: "Paige",  org: "PCL", time: DNF,   day: "Sept 20" },
-   { name: "Caress",  org: "PCL", time: DNF,   day: "Sept 20" },
+   { name: "Jan",  org: "PCL", time: 3:00.0,   day: "Sept 20" },
+   { name: "Paige",  org: "PCL", time: 3:00.0,   day: "Sept 20" },
+   { name: "Caress",  org: "PCL", time: 3:00.0,   day: "Sept 20" },
   // { name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
 ];
 
