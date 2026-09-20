@@ -79,8 +79,9 @@ const PIE_CATEGORIES = [
       {
         name: "Nikhil V",
         org: "PCL",
-        raised: "250",
+        raised: "400",
         donors: [
+           {name: "Adam Mastel", amount: 150},
            {name: "Julie Watkins", amount: 100},
            {name: "Brett Trepanier", amount: 100},
            {name: "Steve Bigoray", amount: 50}
@@ -176,6 +177,7 @@ const PIE_CATEGORIES = [
    ============================================================ */
 const HOTDOG_TIMES = [
   // { name: "Michael Y",  org: "PCL", time: 58.2,   day: "Sept 19" },
+   { name: "Adam Mastel",  org: "PCL", time: 00.0},
   // { name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
 ];
 
