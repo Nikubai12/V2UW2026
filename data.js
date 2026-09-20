@@ -151,7 +151,7 @@ const PIE_CATEGORIES = [
         org: "PCL",
         raised: "1010",
         donors: [
-           {name: "Stuart", amount: 350}
+           {name: "Stuart", amount: 350},
            {name: "Ramu", amount: 210},
            {name: "John K", amount: 100},
            {name: "Marty Zellweger", amount: 100},
@@ -203,12 +203,12 @@ const PIE_CATEGORIES = [
    or "M:SS.mmm" style string (e.g. "1:12.4").
    ============================================================ */
 const HOTDOG_TIMES = [
-  // { name: "Adam",  org: "PCL", time: 1:35.1,   day: "Sept 20" },
-  // { name: "Derrick",  org: "PCL", time: 1:27.1,   day: "Sept 20" },
-   //{ name: "Jan",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
-   //{ name: "Paige",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
-   //{ name: "Caress",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
-  // { name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
+  { name: "Adam",  org: "PCL", time: 1:35.1,   day: "Sept 20" },
+   { name: "Derrick",  org: "PCL", time: 1:27.1,   day: "Sept 20" },
+   { name: "Jan",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
+   { name: "Paige",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
+   { name: "Caress",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
+   //{ name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
 ];
 
 /* Number of positions shown on the timing board */
