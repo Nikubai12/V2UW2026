@@ -102,7 +102,7 @@ const PIE_CATEGORIES = [
         org: "PCL",
         raised: "1410",
         donors: [
-           {name: "Joseph and Buddies", amount: 1320.1},
+           {name: "Joseph and Buddies", amount: 1320},
            {name: "Graeme Deans", amount: 40},
            {name: "Steven Webber", amount: 50},
 
@@ -203,11 +203,11 @@ const PIE_CATEGORIES = [
    or "M:SS.mmm" style string (e.g. "1:12.4").
    ============================================================ */
 const HOTDOG_TIMES = [
-  { name: "Adam",  org: "PCL", time: 1:35.1,   day: "Sept 20" },
-   { name: "Derrick",  org: "PCL", time: 1:27.1,   day: "Sept 20" },
-   { name: "Jan",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
-   { name: "Paige",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
-   { name: "Caress",  org: "PCL", time: 3:10.1,   day: "Sept 20" },
+  { name: "Adam",  org: "PCL", time: "1:35.1",   day: "Sept 20" },
+   { name: "Derrick",  org: "PCL", time: "1:27.1",   day: "Sept 20" },
+   { name: "Jan",  org: "PCL", time: "3:10.1",   day: "Sept 20" },
+   { name: "Paige",  org: "PCL", time: "3:10.2",   day: "Sept 20" },
+   { name: "Caress",  org: "PCL", time: "3:10.3",   day: "Sept 20" },
    //{ name: "Jonothan G", org: "PCL", time: "1:04.9", day: "Sept 19" },
 ];
 
